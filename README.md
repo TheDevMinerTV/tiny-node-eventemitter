@@ -1,8 +1,12 @@
 # `tiny-node-eventemitter`
 
+[![npm](https://img.shields.io/npm/v/tiny-node-eventemitter?style=for-the-badge)](https://www.npmjs.com/package/tiny-node-eventemitter) [![docs](https://img.shields.io/badge/docs-online-green?style=for-the-badge)](https://thedevminertv.github.io/tiny-node-eventemitter/) ![test status](https://img.shields.io/github/actions/workflow/status/thedevminertv/tiny-node-eventemitter/test.yml?style=for-the-badge) [![license](https://img.shields.io/github/license/thedevminertv/tiny-node-eventemitter?style=for-the-badge)](/LICENSE)
+
 > Tiny (**645b** minified + brotlified!) portable (0 dependencies!) EventEmitter replacement with support for strict event types.
 
 ## Usage
+
+You can find the API documentation [here](https://thedevminertv.github.io/tiny-node-eventemitter/).
 
 ```ts
 import { EventEmitter } from 'tiny-node-eventemitter';
