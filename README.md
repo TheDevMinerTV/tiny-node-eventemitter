@@ -98,3 +98,7 @@ typedClassDemo.foo();
 typedClassDemo.bar();
 typedClassDemo.baz();
 ```
+
+## License
+
+This project is licensed under the MIT License. See the included [LICENSE](/LICENSE) file for details.
