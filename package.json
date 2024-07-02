@@ -23,7 +23,7 @@
 		"build": "npm run build:types && npm run build:js",
 		"build:types": "tsc --declaration --emitDeclarationOnly -p tsconfig.json",
 		"build:js": "rollup -c",
-		"build:docs": "typedoc --theme @mxssfd/typedoc-theme --out docs src",
+		"build:docs": "typedoc --out docs src",
 		"test": "node test/index.js",
 		"release": "pnpm run build && pnpm run test && changeset publish"
 	},
