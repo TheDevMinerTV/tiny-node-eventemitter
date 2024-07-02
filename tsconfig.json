@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"lib": ["ES2022", "DOM"],
+		"useDefineForClassFields": true,
+		"strict": true,
+		"allowJs": true,
+		"declaration": true,
+		"declarationDir": "dist",
+		"declarationMap": true,
+		"checkJs": true,
+		"outDir": "./dist"
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}

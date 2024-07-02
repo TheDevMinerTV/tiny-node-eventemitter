@@ -1,0 +1,43 @@
+{
+	"name": "tiny-node-eventemitter",
+	"version": "0.0.0",
+	"author": "DevMiner <devminer@devminer.xyz>",
+	"license": "MIT",
+	"description": "Tiny portable node:events compliant strictly-typed EventEmitter implementation",
+	"type": "module",
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"events",
+		"event-emitter",
+		"strict types"
+	],
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.esm.js",
+	"source": "src/index.js",
+	"types": "dist/index.d.ts",
+	"sideEffects": false,
+	"packageManager": "pnpm@9.4.0",
+	"scripts": {
+		"build": "npm run build:types && npm run build:js",
+		"build:types": "tsc --declaration --emitDeclarationOnly -p tsconfig.json",
+		"build:js": "rollup -c",
+		"build:docs": "typedoc --theme @mxssfd/typedoc-theme --out docs src",
+		"test": "node test/index.js",
+		"release": "pnpm run build && pnpm run test && changeset publish"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.27.7",
+		"@mxssfd/typedoc-theme": "^1.1.6",
+		"@types/node": "^20.14.9",
+		"prettier": "^3.3.2",
+		"rollup": "^4.18.0",
+		"typedoc": "^0.26.3",
+		"typescript": "^5.5.3"
+	},
+	"files": [
+		"dist",
+		"src"
+	]
+}
