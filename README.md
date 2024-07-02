@@ -17,21 +17,21 @@ untypedDemo.emit('baz', 1, 'bar', new Date());
 
 // You can also extend the EventEmitter class to add your own methods
 class ClassDemo extends EventEmitter {
-	constructor() {
-		super();
-	}
+  constructor() {
+    super();
+  }
 
-	foo() {
-		this.emit('foo', 1);
-	}
+  foo() {
+    this.emit('foo', 1);
+  }
 
-	bar() {
-		this.emit('bar', 'bar');
-	}
+  bar() {
+    this.emit('bar', 'bar');
+  }
 
-	baz() {
-		this.emit('baz', 1, 'bar', new Date());
-	}
+  baz() {
+    this.emit('baz', 1, 'bar', new Date());
+  }
 }
 
 const classDemo = new ClassDemo();
@@ -50,9 +50,9 @@ import { EventEmitter } from 'tiny-node-eventemitter';
 
 // You can also use an interface to define the event types
 type TypedEvents = {
-	foo(foo: number): void;
-	bar(bar: string): void;
-	baz(foo: number, bar: string, baz: Date): void;
+  foo(foo: number): void;
+  bar(bar: string): void;
+  baz(foo: number, bar: string, baz: Date): void;
 };
 
 const typedDemo = new EventEmitter<TypedEvents>();
@@ -73,21 +73,21 @@ const typedJSDocDemo = new EventEmitter();
 
 // Or you can extend the EventEmitter class with a generic
 class TypedClassDemo extends EventEmitter<TypedEvents> {
-	constructor() {
-		super();
-	}
+  constructor() {
+    super();
+  }
 
-	foo() {
-		this.emit('foo', 1);
-	}
+  foo() {
+    this.emit('foo', 1);
+  }
 
-	bar() {
-		this.emit('bar', 'bar');
-	}
+  bar() {
+    this.emit('bar', 'bar');
+  }
 
-	baz() {
-		this.emit('baz', 1, 'bar', new Date());
-	}
+  baz() {
+    this.emit('baz', 1, 'bar', new Date());
+  }
 }
 
 const typedClassDemo = new TypedClassDemo();
