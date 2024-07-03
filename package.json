@@ -5,6 +5,10 @@
 	"license": "MIT",
 	"description": "Tiny portable node:events compliant strictly-typed EventEmitter implementation",
 	"type": "module",
+	"repository": {
+		"url": "https://github.com/thedevminertv/tiny-node-eventemitter",
+		"type": "git"
+	},
 	"publishConfig": {
 		"access": "public"
 	},
