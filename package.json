@@ -1,6 +1,6 @@
 {
 	"name": "tiny-node-eventemitter",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "DevMiner <devminer@devminer.xyz>",
 	"license": "MIT",
 	"description": "Tiny portable node:events compliant strictly-typed EventEmitter implementation",
