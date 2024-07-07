@@ -1,5 +1,11 @@
 # tiny-node-eventemitter
 
+## 1.0.3
+
+### Patch Changes
+
+- 70d5b59: Remove unused `defaultMaxListeners` export
+
 ## 1.0.2
 
 ### Patch Changes
