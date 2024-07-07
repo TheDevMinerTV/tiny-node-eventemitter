@@ -1,6 +1,5 @@
 // @ts-check
 
-export const defaultMaxListeners = Infinity;
 export const errorMonitor = Symbol.for('tinynodeeventemitter.errorMonitor');
 
 // FIXME: implement `emitter[Symbol.for('nodejs.rejection')](err, eventName[, ...args])`
