@@ -1,6 +1,9 @@
-const outputs = ['cjs', 'esm']
-	.map((format) => ({
-		file: `./dist/index.${format}.js`,
+const outputs = [
+	['cjs', 'cjs'],
+	['esm', 'mjs']
+]
+	.map(([format, suffix]) => ({
+		file: `./dist/index.${suffix}`,
 		format,
 		sourcemap: true,
 		sourcemapExcludeSources: true

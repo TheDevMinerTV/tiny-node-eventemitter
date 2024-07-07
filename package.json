@@ -17,15 +17,25 @@
 		"event-emitter",
 		"strict types"
 	],
-	"main": "dist/index.cjs.js",
-	"module": "dist/index.esm.js",
+	"main": "dist/index.cjs",
+	"module": "dist/index.mjs",
+	"exports": {
+		"import": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.mjs"
+		},
+		"require": {
+			"types": "./dist/index.d.cts",
+			"require": "./dist/index.cjs"
+		}
+	},
 	"source": "src/index.js",
 	"types": "dist/index.d.ts",
 	"sideEffects": false,
 	"packageManager": "pnpm@9.5.0",
 	"scripts": {
 		"build": "npm run build:types && npm run build:js",
-		"build:types": "tsc --declaration --emitDeclarationOnly -p tsconfig.json",
+		"build:types": "tsc --declaration --emitDeclarationOnly -p tsconfig.json && cp dist/index.d.ts dist/index.d.cts && cp dist/index.d.ts.map dist/index.d.dts.map",
 		"build:js": "rollup -c",
 		"build:docs": "typedoc --out docs src",
 		"test": "node test/index.js",
