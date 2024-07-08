@@ -1,5 +1,11 @@
 # tiny-node-eventemitter
 
+## 1.0.4
+
+### Patch Changes
+
+- 6c8684f: Fixed that when a handler throws, the other handlers don't get called
+
 ## 1.0.3
 
 ### Patch Changes
