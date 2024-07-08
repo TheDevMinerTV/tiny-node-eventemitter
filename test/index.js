@@ -176,3 +176,23 @@ test('once subscribers', async (t) => {
 		});
 	});
 });
+
+test('error handling', async (t) => {
+	const emitter = new EventEmitter();
+
+	const throwing = () => {
+		throw new Error('foo');
+	};
+	const checker = t.mock.fn(
+		() => true,
+		() => false,
+		{ times: 1 }
+	);
+
+	emitter.on('foo', throwing);
+	emitter.on('foo', checker);
+
+	emitter.emit('foo');
+
+	assert.strictEqual(checker(), true);
+});
