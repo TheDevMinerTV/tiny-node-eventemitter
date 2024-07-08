@@ -186,7 +186,11 @@ export class EventEmitter {
 		let handlers = this.#getOrEmpty(event);
 		if (event === 'error') handlers = this.#getOrEmpty(errorMonitor).concat(handlers);
 
-		for (const handler of handlers) handler(...args);
+		for (const handler of handlers) {
+			try {
+				handler(...args);
+			} catch {}
+		}
 
 		return handlers.length > 0;
 	}
