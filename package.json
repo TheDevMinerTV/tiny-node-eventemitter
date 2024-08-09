@@ -6,11 +6,12 @@
 	"description": "Tiny portable node:events compliant strictly-typed EventEmitter implementation",
 	"type": "module",
 	"repository": {
-		"url": "https://github.com/thedevminertv/tiny-node-eventemitter",
+		"url": "git+https://github.com/thedevminertv/tiny-node-eventemitter.git",
 		"type": "git"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
+		"provenance": true
 	},
 	"keywords": [
 		"events",
