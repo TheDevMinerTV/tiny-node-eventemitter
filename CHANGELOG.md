@@ -1,5 +1,11 @@
 # tiny-node-eventemitter
 
+## 1.0.5
+
+### Patch Changes
+
+- d9d2b6b: Enable provenance
+
 ## 1.0.4
 
 ### Patch Changes
