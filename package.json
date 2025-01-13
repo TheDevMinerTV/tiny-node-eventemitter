@@ -33,7 +33,7 @@
 	"source": "src/index.js",
 	"types": "dist/index.d.ts",
 	"sideEffects": false,
-	"packageManager": "pnpm@9.7.0",
+	"packageManager": "pnpm@9.15.4",
 	"scripts": {
 		"build": "npm run build:types && npm run build:js",
 		"build:types": "tsc --declaration --emitDeclarationOnly -p tsconfig.json && cp dist/index.d.ts dist/index.d.cts && cp dist/index.d.ts.map dist/index.d.dts.map",
