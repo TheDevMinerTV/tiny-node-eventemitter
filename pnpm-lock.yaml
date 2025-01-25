@@ -13,7 +13,7 @@ importers:
         version: 2.27.12
       '@mxssfd/typedoc-theme':
         specifier: ^1.1.6
-        version: 1.1.7(typedoc@0.26.5(typescript@5.5.4))
+        version: 1.1.7(typedoc@0.26.5(typescript@5.7.3))
       '@types/node':
         specifier: ^20.14.9
         version: 20.17.16
@@ -25,10 +25,10 @@ importers:
         version: 4.32.0
       typedoc:
         specifier: ^0.26.3
-        version: 0.26.5(typescript@5.5.4)
+        version: 0.26.5(typescript@5.7.3)
       typescript:
         specifier: ^5.5.3
-        version: 5.5.4
+        version: 5.7.3
 
 packages:
 
@@ -568,8 +568,8 @@ packages:
     peerDependencies:
       typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x || 5.1.x || 5.2.x || 5.3.x || 5.4.x || 5.5.x
 
-  typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -757,9 +757,9 @@ snapshots:
       globby: 11.1.0
       read-yaml-file: 1.1.0
 
-  '@mxssfd/typedoc-theme@1.1.7(typedoc@0.26.5(typescript@5.5.4))':
+  '@mxssfd/typedoc-theme@1.1.7(typedoc@0.26.5(typescript@5.7.3))':
     dependencies:
-      typedoc: 0.26.5(typescript@5.5.4)
+      typedoc: 0.26.5(typescript@5.7.3)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -1153,16 +1153,16 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  typedoc@0.26.5(typescript@5.5.4):
+  typedoc@0.26.5(typescript@5.7.3):
     dependencies:
       lunr: 2.3.9
       markdown-it: 14.1.0
       minimatch: 9.0.5
       shiki: 1.10.3
-      typescript: 5.5.4
+      typescript: 5.7.3
       yaml: 2.4.5
 
-  typescript@5.5.4: {}
+  typescript@5.7.3: {}
 
   uc.micro@2.1.0: {}
 
