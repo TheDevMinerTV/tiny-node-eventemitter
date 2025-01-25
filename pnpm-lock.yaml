@@ -13,7 +13,7 @@ importers:
         version: 2.27.12
       '@mxssfd/typedoc-theme':
         specifier: ^1.1.6
-        version: 1.1.6(typedoc@0.26.5(typescript@5.5.4))
+        version: 1.1.7(typedoc@0.26.5(typescript@5.5.4))
       '@types/node':
         specifier: ^20.14.9
         version: 20.17.16
@@ -97,11 +97,11 @@ packages:
   '@manypkg/get-packages@1.1.3':
     resolution: {integrity: sha512-fo+QhuU3qE/2TQMQmbVMqaQ6EWbMhi4ABWP+O4AM1NqPBuy0OrApV5LO6BrrgnhtAHS2NH6RrVk9OL181tTi8A==}
 
-  '@mxssfd/typedoc-theme@1.1.6':
-    resolution: {integrity: sha512-XJglheU+MVRS3IFFGouBmwpE8R056L5d5EN2ZJkits3l+1x9IlWHxsq+vgzEmv+B2XOthZno/OADiyUpdDjYSA==}
+  '@mxssfd/typedoc-theme@1.1.7':
+    resolution: {integrity: sha512-dj4p0TjIoudD8j1u+Kf+KzcEc+je3IB/B1oohWcVJmMRfbw5uZYX6qOGHzfUzAPiU1pYe2u5Vo1IPqgLo58taA==}
     engines: {node: '>= 14'}
     peerDependencies:
-      typedoc: ^0.26.2
+      typedoc: ^0.26.7
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -757,7 +757,7 @@ snapshots:
       globby: 11.1.0
       read-yaml-file: 1.1.0
 
-  '@mxssfd/typedoc-theme@1.1.6(typedoc@0.26.5(typescript@5.5.4))':
+  '@mxssfd/typedoc-theme@1.1.7(typedoc@0.26.5(typescript@5.5.4))':
     dependencies:
       typedoc: 0.26.5(typescript@5.5.4)
 
