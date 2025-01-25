@@ -1,5 +1,11 @@
 # tiny-node-eventemitter
 
+## 1.0.6
+
+### Patch Changes
+
+- 8fc6f9e: Fixed minified + compressed sizes in README
+
 ## 1.0.5
 
 ### Patch Changes
