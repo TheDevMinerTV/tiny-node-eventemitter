@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@changesets/cli':
         specifier: ^2.27.7
-        version: 2.29.7(@types/node@20.17.25)
+        version: 2.29.7(@types/node@20.19.33)
       '@mxssfd/typedoc-theme':
         specifier: ^1.1.6
         version: 1.1.7(typedoc@0.28.13(typescript@5.8.2))
       '@types/node':
         specifier: ^20.14.9
-        version: 20.19.19
+        version: 20.19.33
       prettier:
         specifier: ^3.3.2
         version: 3.6.2
@@ -261,8 +261,8 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@20.19.19':
-    resolution: {integrity: sha512-pb1Uqj5WJP7wrcbLU7Ru4QtA0+3kAXrkutGiD26wUKzSMgNNaPARTUDQmElUXp64kh3cWdou3Q0C7qwwxqSFmg==}
+  '@types/node@20.19.33':
+    resolution: {integrity: sha512-Rs1bVAIdBs5gbTIKza/tgpMuG1k3U/UMJLWecIMxNdJFDMzcM5LOiLVRYh3PilWEYDIeUDv7bpiHPLPsbydGcw==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -651,7 +651,7 @@ snapshots:
     dependencies:
       '@changesets/types': 6.1.0
 
-  '@changesets/cli@2.29.7(@types/node@20.17.25)':
+  '@changesets/cli@2.29.7(@types/node@20.19.33)':
     dependencies:
       '@changesets/apply-release-plan': 7.0.13
       '@changesets/assemble-release-plan': 6.0.9
@@ -667,7 +667,7 @@ snapshots:
       '@changesets/should-skip-package': 0.1.2
       '@changesets/types': 6.1.0
       '@changesets/write': 0.4.0
-      '@inquirer/external-editor': 1.0.2(@types/node@20.17.25)
+      '@inquirer/external-editor': 1.0.2(@types/node@20.19.33)
       '@manypkg/get-packages': 1.1.3
       ansi-colors: 4.1.3
       ci-info: 3.9.0
@@ -774,12 +774,12 @@ snapshots:
       '@shikijs/types': 3.13.0
       '@shikijs/vscode-textmate': 10.0.2
 
-  '@inquirer/external-editor@1.0.2(@types/node@20.17.25)':
+  '@inquirer/external-editor@1.0.2(@types/node@20.19.33)':
     dependencies:
       chardet: 2.1.0
       iconv-lite: 0.7.0
     optionalDependencies:
-      '@types/node': 20.17.25
+      '@types/node': 20.19.33
 
   '@manypkg/find-root@1.1.0':
     dependencies:
@@ -907,7 +907,7 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@types/node@20.19.19':
+  '@types/node@20.19.33':
     dependencies:
       undici-types: 6.21.0
 
